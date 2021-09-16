@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style> h1{
+  color:darkgreen;
+   text-align: center;
+   background-color: coral;
+   }
+   body{
+   background-color:LIGHTBLUE;
+   }
+    #b1{
+        margin-left:35%;
+        color:whitesmoke;
+        background-color:#326872;
+        height:30px;
+   }
+    #b2{
+        margin-left:20px;
+        color:whitesmoke;
+        background-color:#326872;
+         height:30px;
+         width:90px;
+   }
+   table{
+   float:left;
+   margin-left:10%;
+   }
+   
+   </style>
+   <script type="text/javascript">
+   document.getElementById("b2").onclick=function (){
+	   
+	  location.href="www.home.html";
+	   
+   };
+   
+   </script>
+
+</head>
+<body>
+<h1>INSURANCE MANAGEMENT SYSTEM</h1>
+<br>
+<br>
+<form action="./register" method="get">
+<table>
+<tr><td>ID:</td><td><input type="text" name="id"/></td></tr>
+<tr><td>CLIENT NUMBER:</td><td><input type="number" name="lun"/></td></tr>
+<tr><td>CLIENT TYPE:</td><td><input type="text" name="typ"></td></tr>
+<tr><td>DOB:</td><td><input type="date" name="dob"/></td></tr>
+<tr><td>MOBILE:</td><td><input type="number" name="no"/></td></tr>
+<tr><td>ADDRESS:</td><td><input type="text" name="add" /></td></tr>
+<tr><td>STATE:</td><td><input type="text" name="stat"/></td></tr>
+<tr><td>INITAL AMOUNT:</td><td><input type="text" name="amt"/></td></tr>
+<tr><td>NAME:</td><td><input type="text" name="un"/></td></tr>
+</table>
+<table>
+<tr><td>PASSWORD:</td><td><input type="password" name="pwd1"></td></tr>
+<tr><td>RE-TYPE PASSWORD:</td><td><input type="password" name="pwd2"></td></tr>
+<tr><td>AGE:</td><td><input type="number" name="age"/></td></tr>
+<tr><td>E-MAIL:</td><td><input type="email" name="em"></td></tr>
+<tr><td>CITY:</td><td><input type="text" name="cty"/>
+<tr><td>NATION:</td><td><input type="text" name="nat"/>
+<tr><td>PHOTO:</td><td><input type="url" name="pic">
+<tr><td>NO.OF.PAYMENTS:</td><td><input type="number" name="nop"/>
+<tr><td>DATE OF CREATION:</td><td><input type="date" name="doc"/>
+</table>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<input type="submit" value="CREATE ACCOUNT" id="b1">
+<input type="button" value="EXIT" id="b2">
+</form>
+</body>
+</html>
